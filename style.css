@@ -1,0 +1,80 @@
+body {
+  background-color: gray;
+}
+
+.myfirstcard {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 5%;
+}
+.first-h1 {
+  color: aqua;
+  font-size: 15px;
+  padding: 5px;
+  background-color: black;
+  width: 15%;
+  height: 15%;
+}
+.second-h1 {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 15%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.mydiv {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-direction: row;
+}
+
+.my-first-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.my-first-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.my-first-card h1 {
+  color: blue;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.my-first-card .descreption {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 15px;
+}
+.my-first-card .price {
+  color: rgb(255, 0, 0);
+  margin: 0;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.left-content{
+    display: flex;
+}
+.left-content img{
+    width: 40%;
+}
+.right-content{
+    display: flex;
+    gap: 20px;
+}
+.right-content a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+.right-content a:hover {
+    color: white;
+    background-color: blue;
+    border: 2px solid silver;
+}

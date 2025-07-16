@@ -1,31 +1,137 @@
-body{
-    background-color: black;
-    color: white;
+body {
+  background-color: black;
+  color: white;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
 }
-.left-content{
-    display: flex;
+.left-content {
+  display: flex;
 }
-.left-content img{
-    width: 40%;
+.left-content img {
+  width: 40%;
 }
-.right-content{
-    display: flex;
-    gap: 20px;
+.right-content {
+  display: flex;
+  gap: 20px;
 }
 .right-content a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
 }
 .right-content a:hover {
-    color: white;
-    background-color: blue;
-    border: 2px solid silver;
+  color: white;
+  background-color: blue;
+  border: 2px solid silver;
+}
+
+
+.page-heading{
+  display: flex;
+  justify-content: center;
+}
+/* homepage content */
+
+.mydiv {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-direction: row;
+}
+
+.my-first-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.my-first-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.my-first-card h1 {
+  color: blue;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.my-first-card .descreption {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-size: 15px;
+}
+.my-first-card .price {
+  color: rgb(255, 0, 0);
+  margin: 0;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+/* footer style */
+.footer{
+  display: flex;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 15px;
+}
+.footer .sec-1{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 40.33%;
+}
+.footer .sec-1 img{
+  width: 100px;
+}
+.footer .sec-2{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+   gap: 10px;
+}
+.footer .sec-2 a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer .sec-2 a:hover{
+color: black;
+background-color: white;
+}
+.footer .sec-3{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 33.33%;
+}
+
+.copyright-sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

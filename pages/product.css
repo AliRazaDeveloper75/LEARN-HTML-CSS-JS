@@ -77,7 +77,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-button {
+.mybutton {
   background-color: white;
   color: black;
   font-size: 16px;
@@ -85,7 +85,7 @@ button {
   margin: 15px;
   cursor: pointer;
 }
-button:hover {
+.mybutton:hover {
   background-color: black;
   color: white;
 }
@@ -206,3 +206,99 @@ form{
 }
 
 
+/* grid */
+.my-flexbox{
+  display: flex;
+  gap: 5px;
+  
+}
+
+.my-flexbox .f-card{
+  background-color: black;
+  padding: 15px;
+  flex: auto;
+}
+
+.my-grid{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 display in one line */
+  gap: 5px;
+}
+
+.g-card{
+  background-color:aqua;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+
+/* anim-trans */
+.anim-trans{
+  margin-top: 25px;
+  padding: 25px;
+  background-color: white;
+}
+.my-text-trans{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.my-text-trans:hover{
+  color: red;
+}
+
+.my-text-anim{
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 4px solid;
+  animation: borderColorChange 4s infinite;
+  padding: 15px;
+  background-color: aliceblue;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {color: black;}
+  25% {color: blue;}
+  50% {color: green;}
+  100% {color: yellow;}
+}
+
+
+@keyframes borderColorChange {
+  0% { border-color: brown; }
+  100% { border-color: purple; }
+}
+
+
+
+-text-anim::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 160px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
+}

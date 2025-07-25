@@ -318,6 +318,8 @@ form{
     font-size: 11px;
     padding: 10px 15px;
   }
+  .left-content{
+    justify-content: center;}
   .left-content img{
     width: 20%;
   }
@@ -354,5 +356,10 @@ form{
       }
       .footer .sec-3{
         width: 100%;
+      }
+      .right-content{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
       }
 }

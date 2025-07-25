@@ -302,3 +302,57 @@ form{
     transform: rotateZ(360deg);
   }
 }
+
+
+/*phone responsive */
+@media (max-width: 768px) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-content{
+    display: flex;
+    width: 100%;
+  }
+  .right-content a{
+    font-size: 11px;
+    padding: 10px 15px;
+  }
+  .left-content img{
+    width: 20%;
+  }
+  .page-heading{
+    font-size: 21px;
+  }
+
+  .mydiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .my-first-card{
+    width: 100%;
+  }
+  .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        border: none;
+      }
+
+      .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+      .footer .sec-2{
+        text-align: left;
+      }
+      .footer .sec-1{
+        width: 100%;
+      }
+      .footer .sec-3{
+        width: 100%;
+      }
+}

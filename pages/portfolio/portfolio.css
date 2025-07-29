@@ -44,7 +44,7 @@ body {
 .hero-sect {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: antiquewhite;
   justify-content: space-between;
 }
@@ -81,3 +81,43 @@ body {
     cursor: pointer;
     
 }
+
+.right-hero{
+  display: flex;
+  padding: 15px;
+  font-weight: bold;
+}
+
+
+/* skill  */
+.Skills{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  gap: 15px;
+}
+.skills-card{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 33.33%;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+i {
+  font-size: 2rem;
+  padding: 15px;
+  color: orange;
+}
+.skills-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  
+}
+.skills-desc {
+    font-size: 16px;
+    color: black;
+    padding: 15px;
+  }
